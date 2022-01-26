@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/drawable/cut_corner_four_side.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/drawable/cut_corner_main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_home.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3112_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3122_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3132_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3142_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3212_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3222_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3232_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice3242_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4112_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4122_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4132_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4212_main.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4222_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4262_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice4th_main.xml" value="0.12" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice5th_main.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice6th_main.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_ice7th_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_login_main.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/Labmate/app/src/main/res/layout/activity_main2.xml" value="0.12" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

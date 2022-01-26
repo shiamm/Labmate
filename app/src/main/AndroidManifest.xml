@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ice.labmate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/labmate"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/labmate"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Labmate">
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ICE5thSemester.ICE3142MainActivity" />
+        <activity android:name=".ICE5thSemester.ICE3132MainActivity" />
+        <activity android:name=".ICE5thSemester.ICE3122MainActivity" />
+        <activity android:name=".ICE5thSemester.ICE3112MainActivity" />
+        <activity android:name=".ICE6thSemester.ICE3242MainActivity" />
+        <activity android:name=".ICE6thSemester.ICE3232MainActivity" />
+        <activity android:name=".ICE6thSemester.ICE3222MainActivity" />
+        <activity android:name=".ICE6thSemester.ICE3212MainActivity" />
+        <activity android:name=".ICE7thSemester.ICE4132MainActivity" />
+        <activity android:name=".ICE7thSemester.ICE4122MainActivity" />
+        <activity android:name=".ICE7thSemester.ICE4112MainActivity" />
+        <activity android:name=".ICE8thSemester.ICE4262MainActivity" />
+        <activity android:name=".ICE8thSemester.ICE4222MainActivity" />
+        <activity android:name=".ICE8thSemester.ICE4212MainActivity" />
+        <activity android:name=".ICE5thSemester.ICE_5th_sem_MainActivity" />
+        <activity android:name=".ICE6thSemester.ICE_6th_sem_MainActivity" />
+        <activity android:name=".ICE7thSemester.ICE_7th_sem_MainActivity" />
+        <activity android:name=".ICE8thSemester.ICE_8th_sem_MainActivity" />
+        <activity android:name=".LoginMainActivity" />
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

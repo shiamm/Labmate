@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/medium_gray"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/cut_corner_main_menu"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Special Kormee"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cut_corner_four_side"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_4th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_4th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lawndry"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_5th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_5th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Garments"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_6th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_6th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Cook"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_7th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_7th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Labour"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_8th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_8th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Farmers"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_9th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_9th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Driver"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_10th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_10th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:textColor="@color/black"
+                                android:padding="2dp"
+                                android:text="ICE 10th"
+                                android:textAlignment="center"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_11th"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    app:rippleColor="@color/primary"
+                    app:strokeColor="?attr/colorOnSurface"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:id="@+id/batch_11th"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:textColor="@color/black"
+                                android:padding="2dp"
+                                android:text="ICE 11th"
+                                android:textAlignment="center"
+                                android:textSize="22sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>
